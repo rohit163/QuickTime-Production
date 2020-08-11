@@ -80,7 +80,6 @@
 
 
 section {
-  background: url("./assets/img1.png");
   background-size: contain;
   position: relative;
   top: 0;
@@ -92,7 +91,7 @@ section {
   z-index: 100000;
 }
 section::before {
-  content:"";
+  content:url("../assets/img1.jpg");
 
   background-size: 100px;
   position: absolute;
