@@ -96,4 +96,4 @@ section::before {
 
 .svg-1 {
   width: 100%;
-  visibility: hidden; }
+  display: flex; }
